@@ -1,0 +1,4 @@
+[
+  "tests/test_core.py::test_flat_roundtrip",
+  "tests/test_core.py::test_projection_satisfies_simple_target"
+]
