@@ -1,4 +1,4 @@
-# Minimum Structural Repair (MSR) v2.0
+# Minimum Structural Repair (MSR)
 
 Reproducible research software for:
 
