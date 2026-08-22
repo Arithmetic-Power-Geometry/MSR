@@ -1,0 +1,30 @@
+{
+  "seeds": [
+    7,
+    19,
+    31
+  ],
+  "edit_sizes": [
+    1,
+    5,
+    10
+  ],
+  "datasets": [
+    "digits",
+    "wine",
+    "breast_cancer"
+  ],
+  "torch": "2.10.0+cpu",
+  "numpy": "2.3.5",
+  "beta_default": 8.0,
+  "common_metric_beta": 50.0,
+  "target_margin": 0.75,
+  "beta_sweep_seeds": [
+    7
+  ],
+  "sequential_seeds": [
+    7
+  ],
+  "sequential_steps": 6,
+  "notes": "All datasets are bundled with scikit-learn; no external data download or API key is required."
+}

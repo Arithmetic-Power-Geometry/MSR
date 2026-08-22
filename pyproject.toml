@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minimum-structural-repair"
+version = "2.0.0"
+description = "Minimum Structural Repair: variational repair complexity, projection algorithms, sequential repair tests, and an interactive lab"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Mohammad Amir Khusru Akhtar"}]
+dependencies = ["numpy>=1.24", "pandas>=2.0", "scipy>=1.10", "scikit-learn>=1.3", "matplotlib>=3.7", "torch>=2.0", "gradio>=5.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
